@@ -1,0 +1,63 @@
+
+<html>
+<head> 
+<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2">
+</head>
+<body>
+<h1> Nowe mozliwosci CSS </h1>
+ <OL Type=1 Start=1>
+<LI> Przestarzale atrybuty i znaczniki, znajdujace sie bezposrednio w skladni HTML, ktore
+dotycza formatowania (elementy zdeprecjonowane), beda stopniowo wycofywane przez
+producentow przegladarek internetowych, na rzecz rekomendowanych analogicznych
+deklaracji CSS
+<LI> Dokumenty pisane z wykorzystaniem arkuszy stylow sa zwykle bardziej przejrzyste i
+krotsze.
+<LI> )Style pozwalaja w latwy sposob zarzadzac cala seria dokumentow, poprzez stosowanie
+zewnetrznych arkuszy stylow
+<LI> Dzieki mozliwosci stosowania klas selektorow, znacznie oszczedzamy sobie pisania. W
+jednym miejscu okreslamy wszystkie atrybuty formatowania (ktorych moze byc bardzo
+duzo), odnoszace sie do wielu elementow, ktore maja wygladac tak samo. Bezposrednio przy
+elemencie wystarczy podac tylko nazwe klasy i nie musimy juz wypisywac duzej ilosci
+polecen. Znacznie przyspiesza to pozniejsza modyfikacje strony, poniewaz zmian
+dokonujemy tylko w jednym miejscu, a wplywaja one na wiele elementow jednoczesnie
+<LI> Mozliwosc stosowania roznorodnych jednostek oraz sposobow definiowania kolorow.
+<LI> Rozne wartosci pogrubienia czcionki (9 rodzajow)
+<LI> Dodatkowe mozliwosci formatowania tekstu
+<LI> Efektowne filtry graficzne.
+<LI> )Dodatkowe mozliwosci okreslenia wygladu dokumentow podczas ich drukowania.
+ </OL> 
+<style> td { border: 1px solid black; } </style>
+<table>
+<tr>
+<td colspan="2"> <h1> Cechy modyfikowania formatowania w: </h1> </td>
+</tr>
+<tr>
+<td> <h1> w HTML </h1> </td> <td> <h1>  w CSS </h1>  </td>
+</tr>
+<tr>
+<td> modyfikacja wygladu elementow strony jest 
+bardzo zmudna (atrybuty i znaczniki ktore 
+za to odpowiadaja, sa porozrzucane w 
+roznych miejscach kodu, mieszajac sie ze 
+struktura dokumentu). 
+</td> 
+<td> rozdzielenie struktury i prezentacji 
+dokumentow czyli: wszystkie polecenia 
+dotyczace formatowania mozna umiescic w 
+jednym miejscu (tzw. arkuszu) i powiazac je 
+z konkretnymi elementami, wstawionymi za 
+pomoca czystego (X)HTML. Taki sposob 
+sprawia, ze modyfikacja wygladu stron moze 
+przebiegac duzo sprawniej. 
+</td>
+</table>
+
+<h1> Wady CSS </h1>
+<OL Type=1 Start=1>
+<li> zlozona specyfikacja (skladnia) nietolerujaca, zadnych bledow skladniowych
+<li> brak sygnalizacji bledow podczas wykonywania styli CSS oraz podczas ich realizacji
+<li> bledne obslugiwanie CSS przez rozne przegladarki
+</ol>
+
+
+<!-- Kasia Keler 29.03.2023 -->
